@@ -11,7 +11,7 @@ export class AdminComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    this.router.navigate(['/admin', {outlets: {'secondary': 'test'}}])
+    // this.router.navigate(['/admin', {outlets: {'secondary': 'test'}}])
   }
 
 }
